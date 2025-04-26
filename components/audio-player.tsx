@@ -143,9 +143,9 @@ export default function AudioPlayer() {
           value={volume}
           onChange={e => setVolume(Number(e.target.value))}
           style={{ width: 120 }}
+          className="accent-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"
         />
       </label>
     </div>
   );
 }
-
