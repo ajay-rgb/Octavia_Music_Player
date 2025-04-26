@@ -1,0 +1,27 @@
+2025-04-25 10:02:28,137 - octavia - INFO - Octavia backend starting up
+2025-04-25 10:24:07,572 - octavia - INFO - Octavia backend shutting down
+2025-04-25 12:47:37,909 - octavia - INFO - Octavia backend starting up
+2025-04-25 12:52:41,835 - octavia - INFO - Search query: test
+2025-04-25 12:53:24,823 - octavia - INFO - Search query: drake
+2025-04-25 12:53:28,769 - octavia - INFO - Download request for video FrsOnNxIrg8, request ID: b6abac7e-6a65-4d3e-8930-6f59d4bfdca8
+2025-04-25 12:53:55,460 - octavia - INFO - Download finished for b6abac7e-6a65-4d3e-8930-6f59d4bfdca8, starting conversion
+2025-04-25 12:53:55,484 - octavia - INFO - Download and conversion complete for FrsOnNxIrg8
+2025-04-25 13:48:07,158 - octavia - INFO - Search query: drake
+2025-04-26 13:50:22,796 - octavia - INFO - Octavia backend starting up
+2025-04-26 13:50:57,524 - octavia - INFO - Search query: test
+2025-04-26 13:53:51,206 - octavia - INFO - Search query: drake
+2025-04-26 13:53:54,102 - octavia - INFO - Download request for video FrsOnNxIrg8, request ID: b812d023-1b17-40d3-b855-44d9652c98dc
+2025-04-26 13:54:09,361 - octavia - INFO - Download finished for b812d023-1b17-40d3-b855-44d9652c98dc, starting conversion
+2025-04-26 13:54:31,220 - octavia - INFO - Download and conversion complete for FrsOnNxIrg8
+2025-04-26 14:28:25,556 - octavia - INFO - Search query: test
+2025-04-26 14:28:26,213 - octavia - INFO - Search query: test
+2025-04-26 14:28:40,399 - octavia - INFO - Search query: kishore kumar
+2025-04-26 14:28:44,366 - octavia - INFO - Download request for video CrnRqE8hOIc, request ID: e942ce67-6428-425b-8401-d9d23db2318e
+2025-04-26 14:29:09,000 - octavia - INFO - Download finished for e942ce67-6428-425b-8401-d9d23db2318e, starting conversion
+2025-04-26 14:29:18,062 - octavia - INFO - Download and conversion complete for CrnRqE8hOIc
+2025-04-26 14:44:22,295 - octavia - INFO - Octavia backend starting up
+2025-04-26 14:46:29,891 - octavia - INFO - Search query: test
+2025-04-26 14:46:33,846 - octavia - INFO - Search query: drake
+2025-04-26 14:46:40,403 - octavia - INFO - Download request for video FrsOnNxIrg8, request ID: 3e366943-c3ee-4c29-b97b-618037d457da
+2025-04-26 14:46:59,264 - octavia - INFO - Download finished for 3e366943-c3ee-4c29-b97b-618037d457da, starting conversion
+2025-04-26 14:47:07,143 - octavia - INFO - Download and conversion complete for FrsOnNxIrg8
