@@ -18,6 +18,7 @@ export default function AudioPlayer() {
   } = usePlayerStore()
 
   const audioRef = useRef<HTMLAudioElement>(null)
+  const prevRequestIdRef = useRef<string | undefined>(undefined)
 
   // All hooks are called unconditionally at the top
   useEffect(() => {
@@ -51,6 +52,40 @@ export default function AudioPlayer() {
       }
     }
   }, [setCurrentTime, setVolume, addDebugLog])
+
+  // Delete previous audio file when a new track is played
+  useEffect(() => {
+    const trackId = currentTrack?.id;
+    const requestId = trackId ? requestIds[trackId] : undefined;
+    const prevRequestId = prevRequestIdRef.current;
+
+    // Delete previous audio if switching tracks
+    if (prevRequestId && prevRequestId !== requestId) {
+      fetch("http://localhost:8000/delete_audio", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ requestId: prevRequestId })
+      }).catch(() => {});
+    }
+    prevRequestIdRef.current = requestId;
+  }, [currentTrack, requestIds]);
+
+  // Delete current audio file on page unload (refresh/close)
+  useEffect(() => {
+    const handleUnload = () => {
+      const trackId = currentTrack?.id;
+      const requestId = trackId ? requestIds[trackId] : undefined;
+      if (requestId) {
+        // Use navigator.sendBeacon for reliability
+        navigator.sendBeacon(
+          "http://localhost:8000/delete_audio",
+          new Blob([JSON.stringify({ requestId })], { type: "application/json" })
+        );
+      }
+    };
+    window.addEventListener("beforeunload", handleUnload);
+    return () => window.removeEventListener("beforeunload", handleUnload);
+  }, [currentTrack, requestIds]);
 
   useEffect(() => {
     if (!audioRef.current) return
@@ -95,6 +130,22 @@ export default function AudioPlayer() {
   if (!backendAvailable) {
     return <MockAudioPlayer />
   }
-  return <audio ref={audioRef} />
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem' }}>
+      <audio ref={audioRef} style={{ width: '100%' }} />
+      <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+        Volume
+        <input
+          type="range"
+          min={0}
+          max={1}
+          step={0.01}
+          value={volume}
+          onChange={e => setVolume(Number(e.target.value))}
+          style={{ width: 120 }}
+        />
+      </label>
+    </div>
+  );
 }
 

@@ -25,3 +25,51 @@
 2025-04-26 14:46:40,403 - octavia - INFO - Download request for video FrsOnNxIrg8, request ID: 3e366943-c3ee-4c29-b97b-618037d457da
 2025-04-26 14:46:59,264 - octavia - INFO - Download finished for 3e366943-c3ee-4c29-b97b-618037d457da, starting conversion
 2025-04-26 14:47:07,143 - octavia - INFO - Download and conversion complete for FrsOnNxIrg8
+2025-04-26 14:55:20,921 - octavia - INFO - Search query: test
+2025-04-26 14:56:50,520 - octavia - INFO - Search query: drake
+2025-04-26 14:56:54,196 - octavia - INFO - Download request for video FrsOnNxIrg8, request ID: 8a6b8731-dfc7-498f-825b-7bba95feb221
+2025-04-26 14:57:39,024 - octavia - INFO - Download finished for 8a6b8731-dfc7-498f-825b-7bba95feb221, starting conversion
+2025-04-26 14:57:47,739 - octavia - INFO - Download and conversion complete for FrsOnNxIrg8
+2025-04-26 15:05:44,502 - octavia - INFO - Search query: drake
+2025-04-26 15:05:50,089 - octavia - INFO - Search query: test
+2025-04-26 15:05:54,446 - octavia - INFO - Search query: kishore kumar
+2025-04-26 15:05:57,786 - octavia - INFO - Download request for video CrnRqE8hOIc, request ID: 91aecbc4-af9a-4b10-9592-60479ce3d47f
+2025-04-26 15:06:19,610 - octavia - INFO - Download finished for 91aecbc4-af9a-4b10-9592-60479ce3d47f, starting conversion
+2025-04-26 15:06:28,612 - octavia - INFO - Download and conversion complete for CrnRqE8hOIc
+2025-04-26 15:10:06,103 - octavia - INFO - Download request for video bKn1SgHaJBA, request ID: d6c1014f-df3c-47af-9ad8-ee932e81f178
+2025-04-26 15:10:25,441 - octavia - INFO - Download finished for d6c1014f-df3c-47af-9ad8-ee932e81f178, starting conversion
+2025-04-26 15:10:35,492 - octavia - INFO - Download and conversion complete for bKn1SgHaJBA
+2025-04-26 15:12:22,918 - octavia - INFO - Search query: hemant kumar
+2025-04-26 15:12:34,293 - octavia - INFO - Download request for video 6ZTYj-Y1dhI, request ID: 2e7706a5-dd08-4be0-87bd-b37c89a693c8
+2025-04-26 15:12:43,278 - octavia - INFO - Download finished for 2e7706a5-dd08-4be0-87bd-b37c89a693c8, starting conversion
+2025-04-26 15:12:50,995 - octavia - INFO - Download and conversion complete for 6ZTYj-Y1dhI
+2025-04-26 15:19:14,163 - octavia - INFO - Download request for video g_4wE-jgFP8, request ID: 14ca05f4-1c02-4a71-a0ef-a6feaf525c0c
+2025-04-26 15:20:11,426 - octavia - INFO - Download finished for 14ca05f4-1c02-4a71-a0ef-a6feaf525c0c, starting conversion
+2025-04-26 15:20:20,328 - octavia - INFO - Download and conversion complete for g_4wE-jgFP8
+2025-04-26 15:20:20,429 - octavia - INFO - Octavia backend shutting down
+2025-04-26 15:20:29,612 - octavia - INFO - Octavia backend starting up
+2025-04-26 15:21:43,420 - octavia - INFO - Download request for video 6MoZcTcERB8, request ID: c2881d6e-8a18-48f6-a2e8-99f001d502ff
+2025-04-26 15:21:53,023 - octavia - INFO - Download request for video CRpJGltYhew, request ID: 6672a950-1ca5-42fc-81a3-b270fbacf986
+2025-04-26 15:21:58,780 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:58,823 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:58,855 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:58,915 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:59,008 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:59,048 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:59,091 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:59,226 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:59,280 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:21:59,625 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:00,622 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:03,391 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:06,273 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:07,436 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:07,899 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:09,441 - octavia - ERROR - Error updating download progress: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:09,446 - octavia - ERROR - Error processing 6MoZcTcERB8: 'c2881d6e-8a18-48f6-a2e8-99f001d502ff'
+2025-04-26 15:22:13,202 - octavia - INFO - Download finished for 6672a950-1ca5-42fc-81a3-b270fbacf986, starting conversion
+2025-04-26 15:22:20,018 - octavia - INFO - Download and conversion complete for CRpJGltYhew
+2025-04-26 15:22:42,004 - octavia - INFO - Search query: alone again naturally
+2025-04-26 15:23:27,598 - octavia - INFO - Download request for video vXL7y6km0a8, request ID: 3c90fcc5-2538-496e-8a50-0846bfc19f79
+2025-04-26 15:23:59,478 - octavia - INFO - Download finished for 3c90fcc5-2538-496e-8a50-0846bfc19f79, starting conversion
+2025-04-26 15:24:08,085 - octavia - INFO - Download and conversion complete for vXL7y6km0a8

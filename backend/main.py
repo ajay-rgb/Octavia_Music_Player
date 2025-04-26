@@ -262,6 +262,30 @@ async def shutdown_event():
     except Exception as e:
         logger.error(f"Error cleaning temp directory: {e}")
 
+from fastapi import Request
+
+@app.delete("/delete_audio")
+async def delete_audio(request: Request):
+    data = await request.json()
+    request_id = data.get("requestId")
+    if not request_id:
+        raise HTTPException(status_code=400, detail="Missing requestId")
+
+    progress = download_progress.get(request_id)
+    if not progress:
+        raise HTTPException(status_code=404, detail="Request ID not found")
+
+    file_path = progress.get("file_path")
+    if file_path and os.path.exists(file_path):
+        try:
+            os.remove(file_path)
+        except Exception as e:
+            logger.error(f"Error deleting file {file_path}: {e}")
+            raise HTTPException(status_code=500, detail=f"Error deleting file: {e}")
+    # Remove from progress dict
+    download_progress.pop(request_id, None)
+    return {"detail": "Audio file deleted"}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

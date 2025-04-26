@@ -98,16 +98,7 @@ export default function TrackItem({ track }: TrackItemProps) {
         <div className="ml-4">{renderPlaybackButton()}</div>
       </div>
 
-      {isCurrentTrack && (
-        <div className="mt-4">
-          <div className="h-1 bg-gray-700 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-white transition-all duration-300"
-              style={{ width: `50%` }} // This would be controlled by actual playback progress
-            />
-          </div>
-        </div>
-      )}
+
     </div>
   )
 }
