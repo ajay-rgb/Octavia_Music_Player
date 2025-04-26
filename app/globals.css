@@ -9,6 +9,15 @@
   --card-active-background: rgba(0, 0, 0, 0.3);
 }
 
+/* Hide scrollbar utility */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 body {
   background: linear-gradient(to bottom, var(--background), #2d0b0b);
   color: var(--foreground);
