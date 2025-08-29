@@ -1,6 +1,9 @@
-## Octavia
+![OCtavia](https://github.com/user-attachments/assets/a5047dd1-8c53-4859-bd28-7c0cf7b0395b)## Octavia
 
 A full-stack music streaming application that allows users to search for songs and stream them directly from YouTube Music. The application is built with a modern and efficient tech stack to provide a smooth user experience.
+
+
+![OCtavia](https://github.com/user-attachments/assets/dc21ea7c-d71c-43c4-9811-3cd0b7a03825)
 
 -----
 
