@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body{
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: blueviolet;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+* {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: #fff;
+    z-index: 9999;
+    transition: opacity 1s ease-out; 
+}
+
+.loading-screen.fade-out {
+    opacity: 0;
+    pointer-events: none; 
+}
